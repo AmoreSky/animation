@@ -6,9 +6,8 @@
 }
 section{
     height: 100vh;
-    background-image: url(./images/modern-city-buildings_1441-3042\ -\ Copy.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(./Images/Scene-93.jpg);
+    background-size: contain;
 }
 .lorry1{
     position: absolute;
@@ -31,7 +30,7 @@ section{
     height: 200px;
     animation: right 13s infinite ease-in-out;
     position: absolute;
-    top: 530px;
+    top: 560px;
 }
 @keyframes right {
     0%{
@@ -46,7 +45,7 @@ section{
     height: 100px;
     animation: move 10s infinite ease-in-out;
     position: absolute;
-    top: 630px;
+    top: 640px;
 }
 @keyframes move {
     0%{
@@ -61,7 +60,7 @@ section{
     height: 150px;
     animation: walk 10s infinite ease-in-out;
     position: absolute;
-    top: 630px;
+    top: 650px;
     z-index: 2;
 }
 @keyframes walk {
