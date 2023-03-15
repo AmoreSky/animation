@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+section{
+    height: 100vh;
+    background-image: url(./images/modern-city-buildings_1441-3042\ -\ Copy.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lorry1{
+    position: absolute;
+    top: 630px;
+    animation: left 13s infinite ease-in-out;
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+}
+@keyframes left{
+    0%{
+        left: -200px;
+    }
+    100%{
+        left: 1600px;
+    }
+}
+.lorry2{
+    width: 200px;
+    height: 200px;
+    animation: right 13s infinite ease-in-out;
+    position: absolute;
+    top: 530px;
+}
+@keyframes right {
+    0%{
+        left:1600px;
+    }
+    100%{
+        left: -200px;
+    }
+}
+.car{
+    width: 100px;
+    height: 100px;
+    animation: move 10s infinite ease-in-out;
+    position: absolute;
+    top: 630px;
+}
+@keyframes move {
+    0%{
+        left:1800px;
+    }
+    100%{
+        left:-200px;
+    }
+}
+.car2{
+    width: 150px;
+    height: 150px;
+    animation: walk 10s infinite ease-in-out;
+    position: absolute;
+    top: 630px;
+    z-index: 2;
+}
+@keyframes walk {
+    0%{
+        left: -200px;
+    }
+    100%{
+        left: 1800px;
+    }
+}
+.bike1{
+    width: 150px;
+    height: 150px;
+    animation: fly 10s infinite ease-in-out;
+    position: absolute;
+    top: 70px;
+}
+@keyframes fly {
+    0%{
+        left:1600px;
+    }
+    100%{
+        left:-200px;
+    }
+}
+
