@@ -11,8 +11,8 @@ section{
 }
 .lorry1{
     position: absolute;
-    top: 630px;
-    animation: left 13s infinite ease-in-out;
+    top: 620px;
+    animation: left 6s infinite ease-in-out;
     width: 200px;
     height: 200px;
     z-index: 3;
